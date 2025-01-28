@@ -1,0 +1,196 @@
+/* #region media-1024px */
+
+@media (max-width: 1024px) {
+	.container {
+		width: 768px;
+	}
+
+	.logo {
+		top: 32px;
+		left: 64px;
+		width: 190px;
+		height: 24px;
+	}
+
+	.menu__btn {
+		top: 32px;
+		right: 64px;
+		width: 24px;
+		height: 24px;
+	}
+
+	.header__bottom {
+		bottom: 32px;
+		left: 64px;
+	}
+
+	.header-title {
+		font-size: 40px;
+	}
+
+	.menu {
+		padding: 32px;
+	}
+
+	.menu__top {
+		padding-bottom: 32px;
+	}
+
+	.menu-link {
+		font-size: 18px;
+	}
+
+	main {
+		padding: 64px 0;
+	}
+
+	.title {
+		font-size: 32px;
+	}
+
+	.how-to-buy__title {
+		font-size: 32px;
+	}
+
+	.recommended__product_title {
+		font-size: 14px;
+	}
+
+	.recommended__product_category {
+		font-size: 14px;
+	}
+
+	.recommended__product_price {
+		font-size: 14px;
+	}
+
+	.categories-section {
+		margin-bottom: 64px;
+	}
+
+	.category__title {
+		font-size: 20px;
+	}
+
+	.how-to-buy__content-list {
+		font-size: 14px;
+	}
+
+	.how-to-buy__content-description {
+		font-size: 14px;
+	}
+}
+/* #endregion media-1024px */
+
+/* #region media-768px */
+
+@media (max-width: 768px) {
+	.container {
+		width: 480px;
+	}
+
+  .header {
+    padding: 64px 120px 32px 120px;
+  }
+	.header__title {
+		font-size: 40px;
+	}
+
+	.menu {
+		padding: 32px;
+	}
+
+	.menu__top {
+		padding-bottom: 32px;
+	}
+
+	.menu-link {
+		font-size: 18px;
+	}
+
+	main {
+		padding: 64px 0;
+	}
+
+	.title {
+		font-size: 32px;
+	}
+
+	.how-to-buy__title {
+		font-size: 32px;
+	}
+
+	.recommended__products {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 40px;
+	}
+
+	.recommended__product {
+		width: 392px;
+	}
+
+	.recommended__product_img {
+		height: 387px;
+	}
+
+	.recommended__product_title {
+		font-size: 14px;
+	}
+
+	.recommended__product_category {
+		font-size: 14px;
+	}
+
+	.recommended__product_price {
+		font-size: 14px;
+	}
+
+	.categories-section {
+		margin-bottom: 64px;
+	}
+
+	.category__title {
+		font-size: 20px;
+	}
+
+	.how-to-buy__content-list {
+		font-size: 14px;
+	}
+
+	.how-to-buy__content-description {
+		font-size: 14px;
+	}
+}
+
+/* #endregion media-768px */
+
+/* #region media-480px */
+
+@media (max-width: 480px) {
+	.container {
+		width: 100%;
+	}
+	.category {
+		margin-bottom: 40px;
+	}
+	.category__title {
+		font-family: "Inter", sans-serif;
+		font-weight: 500;
+		font-size: 28px;
+		margin-bottom: 40px;
+	}
+	.how-to-buy {
+		display: flex;
+		flex-direction: column;
+	}
+	.recommended__title,
+	.categories__title,
+	.how-to-buy__title {
+			margin-bottom: 40px;
+		font-size: 32px;
+		
+	}
+
+}
