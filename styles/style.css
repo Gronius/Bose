@@ -76,7 +76,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url(/images/header-bg.png);
+  background-image: url(../images/header-bg.png);
   height: 100vh;
   padding: 64px 120px;
   background-position: center;
